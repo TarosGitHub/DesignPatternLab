@@ -1,0 +1,33 @@
+@startuml
+
+package framework {
+
+	class Product {
+		+ {abstract} method()
+	}
+
+	class Creator {
+		+ Product creat()
+		# {abstract} factoryMethod()
+	}
+
+	Creator - Product : Creates >
+}
+
+package concretepackage {
+
+	class ConcreteProduct {
+		+ method()
+	}
+
+	class ConcreteCreator {
+		# factoryMethod()
+	}
+
+	ConcreteCreator - ConcreteProduct : Creates >
+}
+
+Creator <|-d- ConcreteCreator
+Product <|-d- ConcreteProduct
+
+@enduml
