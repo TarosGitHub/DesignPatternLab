@@ -1,4 +1,4 @@
-@startuml images/FactoryMethod/FactoryMethodClassDiagram.png
+@startuml FactoryMethod/FactoryMethodClassDiagram.png
 
 package framework {
 
