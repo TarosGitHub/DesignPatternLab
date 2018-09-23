@@ -7,7 +7,7 @@ package framework {
 	}
 
 	class Creator {
-		+ Product creat()
+		+ creat() : Product
 		# {abstract} factoryMethod()
 	}
 
