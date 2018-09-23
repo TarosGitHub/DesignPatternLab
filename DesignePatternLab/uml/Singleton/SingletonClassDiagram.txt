@@ -1,0 +1,12 @@
+@startuml Singleton/SingletonClassDiagram.png
+
+class Singleton {
+	' Fields
+	- {static} singleton : Singleton
+
+	' Methods
+	- Singleton()
+	+ {static} getInstance() : Singleton
+}
+
+@enduml
