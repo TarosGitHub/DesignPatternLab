@@ -1,5 +1,9 @@
 import unittest
-from .singleton import Singleton
+import os
+import sys
+
+sys.path.append(os.path.dirname(__file__))
+from singleton import Singleton
 
 class TestSingleton(unittest.TestCase):
     """Singleton __new__ テスト
