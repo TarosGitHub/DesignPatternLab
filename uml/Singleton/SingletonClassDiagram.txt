@@ -1,4 +1,5 @@
 @startuml Singleton/SingletonClassDiagram.png
+skinparam shadowing false
 
 class Singleton {
 	' Fields
