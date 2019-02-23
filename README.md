@@ -4,3 +4,9 @@
 
 ### プレビューを見る
 `[Alt] + d`
+
+## Pythonでのテスト実施方法
+
+以下のコマンドを実行
+
+    $ python python/testmng.py
