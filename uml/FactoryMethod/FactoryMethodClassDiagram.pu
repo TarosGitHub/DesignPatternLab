@@ -1,4 +1,4 @@
-@startuml FactoryMethod/FactoryMethodClassDiagram.png
+@startuml FactoryMethodClassDiagram.png
 skinparam shadowing false
 
 package framework {

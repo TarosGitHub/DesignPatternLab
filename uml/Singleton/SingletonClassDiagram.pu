@@ -1,4 +1,4 @@
-@startuml Singleton/SingletonClassDiagram.png
+@startuml SingletonClassDiagram.png
 skinparam shadowing false
 
 class Singleton {
