@@ -1,0 +1,19 @@
+@startuml TemplateMethodClassDiagram.png
+skinparam shadowing false
+
+class AbstractClass {
+	# {abstract} method1()
+	# {abstract} method2()
+	# {abstract} method3()
+    + templateMethod()
+}
+
+class ConcreteClass {
+	# method1()
+	# method2()
+	# method3()
+}
+
+AbstractClass <|-d- ConcreteClass
+
+@enduml

@@ -1,0 +1,29 @@
+@startuml TemplateMethodSequenceDiagram.png
+skinparam shadowing false
+
+participant Main
+participant AbstractClass
+participant ConcreteClass
+
+Main -> AbstractClass: templateMethod()
+activate AbstractClass
+
+AbstractClass -> ConcreteClass: method1()
+activate ConcreteClass
+ConcreteClass --> AbstractClass
+deactivate ConcreteClass
+
+AbstractClass -> ConcreteClass: method2()
+activate ConcreteClass
+ConcreteClass --> AbstractClass
+deactivate ConcreteClass
+
+AbstractClass -> ConcreteClass: method3()
+activate ConcreteClass
+ConcreteClass --> AbstractClass
+deactivate ConcreteClass
+
+AbstractClass --> Main
+deactivate AbstractClass
+
+@enduml
