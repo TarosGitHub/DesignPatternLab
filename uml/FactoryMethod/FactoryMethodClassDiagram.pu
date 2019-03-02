@@ -3,11 +3,13 @@ skinparam shadowing false
 
 package framework {
 
-	class Product {
-		+ {abstract} method()
+	abstract class Product {
+		+ {abstract} method1()
+		+ {abstract} method2()
+		+ {abstract} method3()
 	}
 
-	class Creator {
+	abstract class Creator {
 		+ creat() : Product
 		# {abstract} factoryMethod()
 	}
@@ -18,7 +20,9 @@ package framework {
 package concretepackage {
 
 	class ConcreteProduct {
-		+ method()
+		+ method1()
+		+ method2()
+		+ method3()
 	}
 
 	class ConcreteCreator {
