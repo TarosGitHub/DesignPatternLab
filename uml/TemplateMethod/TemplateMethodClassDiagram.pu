@@ -1,7 +1,7 @@
 @startuml TemplateMethodClassDiagram.png
 skinparam shadowing false
 
-class AbstractClass {
+abstract class AbstractClass {
 	# {abstract} method1()
 	# {abstract} method2()
 	# {abstract} method3()
